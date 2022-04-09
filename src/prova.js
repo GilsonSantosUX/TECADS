@@ -4,7 +4,7 @@
 
 const word = 'palavra';
 
-function setUnderLine([...word],index){
+function setUnderLine([...word],index = word.length){
     let i = index-1;
     if(i < 0){
         return word.join('');
@@ -14,4 +14,4 @@ function setUnderLine([...word],index){
     return setUnderLine(word,i);
 }
 
-console.log(setUnderLine(word,word.length))
+console.log(setUnderLine(word))
