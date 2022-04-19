@@ -18,3 +18,6 @@ const streamCsv =  csv.parse({
                     });
 
 stream.pipe(streamCsv);
+
+// let teste = 'Sou uma variavel!';
+// `Template string para concatenar valores com variaveis ${teste}`;
