@@ -1,0 +1,12 @@
+.navigate{
+    width:100%;
+    /* background:var(--color-neutral-2); */
+    /* color:var(--color-feedback-informative-3); */
+  }
+
+.navigate,.navigate>ul{
+    display:flex;
+    flex-flow:row nowrap;
+    gap:16px;
+    list-style: none;
+}
