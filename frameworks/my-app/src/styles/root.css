@@ -1,8 +1,5 @@
 /* // Define variables context */
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@400;500;600;700&display=swap");
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 
 :root {
 	/* // Font family -------------------------------------------------------- // */
@@ -26,7 +23,6 @@
 	--font-body: 1rem;
 	--font-body-sm: 0.875rem;
 	--font-caption: 0.75rem;
-
 	/* // Baseline ------------------------------------------------------ // */
 	--font-line-base: 1.5;
 	--font-baseline-heading-x1: 3.75rem;

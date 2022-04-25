@@ -1,8 +1,10 @@
 module.exports = {
   content: [
+    "./public/index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
     "./src/pages/**/*.{js,ts,jsx,tsx}",
     "./src/components/**/*.{js,ts,jsx,tsx}",
+    "./node_modules/tailwindcss/**/*.js",
   ],
   theme: {
     prefix: 'gs-',
